@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Home — Your Name</title>
+  <title>Contact — Your Name</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 40px; background:#f5f7fa; color:#222; }
     header { margin-bottom: 20px; }
@@ -11,12 +11,13 @@
     nav a:hover { text-decoration: underline; }
     .container { max-width: 800px; margin: auto; }
     footer { margin-top: 30px; font-size: 14px; color: #555; text-align:center; }
+    .contact-box { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
   </style>
 </head>
 <body>
   <div class="container">
     <header>
-      <h1>Welcome to My Personal Website</h1>
+      <h1>Contact Me</h1>
       <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
@@ -25,9 +26,11 @@
     </header>
 
     <main>
-      <h2>Hello 👋</h2>
-      <p>I'm <strong>Your Name</strong>, a web developer and designer. This is my personal website.</p>
-      <p>Use the navigation above to learn more about me or to get in touch.</p>
+      <div class="contact-box">
+        <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        <p>GitHub: <a href="#">github.com/yourusername</a></p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/yourusername</a></p>
+      </div>
     </main>
 
     <footer>
